@@ -13,15 +13,6 @@
   overflow: hidden;
 }
 
-/* text */
-.text-right {
-  text-align: right; }
-
-.text-left {
-  text-align: left; }
-
-.text-center {
-  text-align: center; }
 
 
 body .pt_60 {
@@ -161,6 +152,37 @@ body .lh_20{
  line-height: 20px;
 }
 
-.list-none{
-  list-style-type: none;
+
+.lowercase{
+  text-transform: lowercase!important;
 }
+
+.uppercase{
+  text-transform: uppercase!important;
+}
+
+.capitalize {
+  text-transform: capitalize!important;
+}
+
+/* text */
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.text-center {
+  text-align: center; }
+
+
+  .list-none{
+    list-style-type: none;
+  }
+
+  /* title style and size*/
+  .fw-mid {
+    font-weight: 600; }
+
+  .fw-bold {
+    font-weight: 800; }
